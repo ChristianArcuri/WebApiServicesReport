@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="WireSecurity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="WireTransac.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="WireTransac.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0iV2lyZVRyYW5zYWMiPjxWaWV3IE5hbWU9IkFjY19JbnZvaWNlX0FnZW5jeV9IZWFkZXIoQFN0YXRlbWVudElkKSI+PEZpZWxkIE5hbWU9IlN0YXRlbWVudElkIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ2VuY3lDb2RlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ25hbWUiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFnQWRkcmVzcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWdBZGRyZXNzMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWdDaXR5IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ1N0YXRlQWJiciIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWdaaXAiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFnUGhvbmUxIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ0ZheDEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFnRW1haWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFnTGFuZ3VhZ2VJZCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iU3RhdGVMaWNlbnNlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ093bmVyRmlyc3ROYW1lIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ093bmVyTGFzdE5hbWUiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFnU3RhdGVtZW50U2VxIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTdGF0ZW1lbnREYXRlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJCZWdpbmluZ0JhbGFuY2UiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkVuZGluZ0JhbGFuY2UiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlRyYW5zYWN0aW9uRGF0ZUZyb20iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlRyYW5zYWN0aW9uRGF0ZVRvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJSZXBvcnRDb2xvckJhY2tncm91bmQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlJlcG9ydENvbG9yRm9yZWdyb3VuZCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iTG9nbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iTGVnYWxFbnRpdHlPZmZpY2lhbE5hbWUiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvQnJhbmRBZGRyZXNzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb0JyYW5kQ2l0eSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29CcmFuZFN0YXRlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb0JyYW5kWmlwIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21taVBheW1lbnRNZXRob2QiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRhaWx5Q29tbWlzc2lvbiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iU2hvd0FnQ29tbWlTdGF0ZW1lbnQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFnRmF4TWVzc2FnZVRleHQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvQnJhbmRQaG9uZUZheCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29CcmFuZEVtYWlsIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDZWxsUGhvbmUiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikludm9pY2VQaG9uZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iUVRyYW5zaXQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlN0YXRlbWVudEN1cnJlbmN5IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBZ0RvbWVzdGljUGF5ZXIiIFR5cGU9IlVua25vd24iIC8+PC9WaWV3PjwvRGF0YVNldD4=</value>
+  </data>
+  <data name="CalcInfoHeader.Expression" xml:space="preserve">
+    <value>[SendDeposit] + ':' 
++ Char(13)
++ [Fax] + ': 1-800-388-5651'
++ Char(13)
++ [Email] + ': dep@intermexusa.com' 
++ Char(13)
++ [CellPhone] + ': 305-632-8767'
++ Char(13)
++ Char(13)
++ [LikeInfo] + ' 1 (877)256-0390'</value>
+  </data>
+  <data name="frShowCommiPaymentMethod.Condition" xml:space="preserve">
+    <value>[DailyCommission] == False And (Upper([CommiPaymentMethod]) == 'ACH'  
+Or Upper([CommiPaymentMethod]) == 'CREDIT MEMO'
+ Or UPPER([CommiPaymentMethod]) == 'CHECK'
+  Or Upper([CommiPaymentMethod]) == 'MANDATORY CHECK')</value>
+  </data>
+  <data name="CalcNote.Expression" xml:space="preserve">
+    <value>'&lt;html&gt;
+&lt;body style="font-family: Open Sans Semibold;font-size: 7.5pt"&gt;' +
+Trim([InvoiceNote1]) + ' ' +
+'&lt;span style="font-family: Open Sans Extrabold"&gt;&lt;strong&gt;&lt;i&gt;' +
+Trim([bold italic]) + ' ' +
+'&lt;/i&gt;&lt;/strong&gt;&lt;/span&gt;' +
+Trim([InvoiceNoteOther]) + ' ' +
+'&lt;/body&gt;
+&lt;/html&gt;'</value>
+  </data>
+  <data name="CalcTopUpNote.Expression" xml:space="preserve">
+    <value>'&lt;html&gt;
+&lt;body style="font-family: Open Sans Semibold;font-size: 7.5pt"&gt;' +
+Trim([InvoiceNote1]) + ' ' +
+'&lt;span style="font-family: Open Sans Extrabold"&gt;&lt;strong&gt;&lt;i&gt;' +
+Trim([bold italic]) + ' ' +
+'&lt;/i&gt;&lt;/strong&gt;&lt;/span&gt;' +
+Trim([TopUpNoteOther]) + ' ' +
+'&lt;/body&gt;
+&lt;/html&gt;'</value>
+  </data>
+  <data name="$this.ScriptsSource" xml:space="preserve">
+    <value>
+private void xrTable1_PrintOnPage(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+   ((sender as XRTable).Rows[0].Cells[0] as XRTableCell).Text = "123";
+}
+
+private void xrTable1_PrintOnPage_1(object sender, DevExpress.XtraReports.UI.PrintOnPageEventArgs e) {
+
+}
+</value>
+  </data>
+</root>

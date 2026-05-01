@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Email>
+<Type><![CDATA[Invoice]]></Type>
+<Subject><![CDATA[INTERMEX - Accounting Invoice]]></Subject>
+<Body>
+<![CDATA[
+<!DOCTYPE HTML>
+  <html> 
+  <head> 
+	 <meta name='viewport' content='width=device-width, minimum-scale=0.1'>
+	 <meta http-equiv='content-type' content='text/html; charset=utf-8'> 
+  </head> 
+  <body> 
+	<!--<img src= cid:intermexLogo />-->
+	</br>
+   
+	<p>Dear Agent,</p>
+
+	<p>Please find attached your daily invoice. Should you have any questions please contact our Accounts Receivable Department at 1(877)256-0390.
+	   We kindly ask you to send your Deposit Receipt confirmation by e-mail, fax or text message:</p>
+  
+  </br>
+	<p>E-mail:            Dep@intermexusa.com </p>
+  </br>
+  <p>Fax number:        1(800)388-5651 </p>
+  </br>
+  <p>Text Message:      (305)632-8767 </p>
+	
+  </br>
+  </br>
+	<p>Note: **Please send all Deposit Receipts by e-mail or text message. Please indicate the Agency Code to confirm where the receipt is coming from.</p>
+
+  </br>
+  </br>
+	<p>Have a nice day! </p>
+  
+  </br>
+  </br>
+  <p>Intermex Wire Transfer </p>
+	
+	
+	</br>
+	</br>
+   <p style='font-size:11px'>*** This is an automatically generated email, please do not reply ***</p>
+  </body> 
+  </html>
+  ]]></Body>
+  </Email>

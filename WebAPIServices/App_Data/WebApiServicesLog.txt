@@ -1,0 +1,545 @@
+2019-08-01 10:54:58,803 [10] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query ConvertRowsInColumns_MultiLangLabels failed to execute.
+2019-08-01 10:55:54,093 [9] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query ConvertRowsInColumns_MultiLangLabels failed to execute.
+2019-08-07 09:44:43,568 [11] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Missing Parameter FDate
+2019-08-07 09:44:43,575 [11] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Error populating parameter FDate. Missing Report Parameter
+2019-08-07 09:44:46,099 [8] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Missing Parameter FDate
+2019-08-07 09:44:46,099 [8] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Error populating parameter FDate. Missing Report Parameter
+2019-09-10 14:24:40,683 [10] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User magarcia
+2019-09-10 14:24:40,763 [11] ERROR WebAPIBusiness.BSInvoice - There is no Agencies to send Email
+2019-09-10 14:25:11,198 [9] ERROR WebAPIBusiness.BSInvoice - Statement 8387739 to FL1000 by fax. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2019-10-24 13:34:07,179 [7] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2019-10-24 13:45:38,210 [8] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2019-10-24 13:46:10,578 [13] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2019-10-24 13:47:10,955 [9] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:28:04,705 [10] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:34:36,387 [8] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:35:42,181 [8] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:37:32,730 [47] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:38:09,768 [47] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:44:33,109 [8] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:45:00,098 [8] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:45:48,978 [58] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-07 09:55:47,368 [58] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-01-13 11:41:58,530 [8] ERROR WebAPIReports.Tools.Tools - Missing Parameter WireID
+2020-01-13 11:41:58,536 [8] ERROR WebAPIReports.Tools.Tools - Error populating parameter WireID. Missing Report Parameter
+2020-01-13 11:43:52,145 [7] ERROR WebAPIReports.Tools.Tools - Missing Parameter ShowForm1025
+2020-01-13 11:43:52,145 [7] ERROR WebAPIReports.Tools.Tools - Error populating parameter ShowForm1025. Missing Report Parameter
+2020-01-13 11:53:29,102 [12] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Failed to connect to the database. To learn more, see the exception details. 
+
+Exception details:
+ Connection name: WireSearchConnectionString
+ Error message:
+Cannot open database "WIRESEARCH" requested by the login. The login failed.
+Login failed for user 'InvoiceWebService'.
+
+2020-01-14 10:31:17,710 [62] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-01-14 10:32:47,983 [38] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-01-14 10:44:52,315 [17] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-01-14 10:44:52,315 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-01-14 10:44:52,415 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-01-14 12:04:46,113 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-03-03 13:24:54,815 [7] ERROR WebAPIReports.Tools.Tools - Missing Parameter BlackAndWhite
+2020-03-03 13:24:54,821 [7] ERROR WebAPIReports.Tools.Tools - Error populating parameter BlackAndWhite. Missing Report Parameter
+2020-03-03 13:27:27,341 [13] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: WireTransacConn.
+2020-03-03 13:42:43,293 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Header failed to execute.
+2020-03-03 13:43:15,335 [19] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Header failed to execute.
+2020-03-03 13:44:50,314 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Header failed to execute.
+2020-03-06 10:46:29,586 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-03-06 10:54:05,807 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query WireSearchReceiptV1 failed to execute.
+2020-04-20 10:51:51,602 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: MoneyOrderConnectionString.
+2020-04-20 10:53:27,077 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: MoneyOrderConnectionString.
+2020-04-20 11:26:09,733 [11] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: MoneyOrderConnectionString.
+2020-04-20 11:32:38,125 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Failed to connect to the database. To learn more, see the exception details. 
+
+Exception details:
+ Connection name: MoneyOrderConnectionString
+ Error message:
+Cannot open database "MONEYORDERS" requested by the login. The login failed.
+Login failed for user 'InvoiceWebService'.
+
+2020-04-20 13:25:45,290 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: MoneyOrderConnectionString.
+2020-04-20 13:35:51,007 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Failed to connect to the database. To learn more, see the exception details. 
+
+Exception details:
+ Connection name: MoneyOrderConnectionString
+ Error message:
+Cannot open database "MONEYORDERS" requested by the login. The login failed.
+Login failed for user 'InvoiceWebService'.
+
+2020-04-20 13:35:51,080 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Failed to connect to the database. To learn more, see the exception details. 
+
+Exception details:
+ Connection name: MoneyOrderConnectionString
+ Error message:
+Cannot open database "MONEYORDERS" requested by the login. The login failed.
+Login failed for user 'InvoiceWebService'.
+
+2020-04-20 13:36:22,440 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Failed to connect to the database. To learn more, see the exception details. 
+
+Exception details:
+ Connection name: MoneyOrderConnectionString
+ Error message:
+Cannot open database "MONEYORDERS" requested by the login. The login failed.
+Login failed for user 'InvoiceWebService'.
+
+2020-05-13 12:05:35,613 [10] ERROR WebAPIReports.Tools.Tools - Missing Parameter Top
+2020-05-13 12:05:35,618 [10] ERROR WebAPIReports.Tools.Tools - Error populating parameter Top. Missing Report Parameter
+2020-05-13 12:07:26,213 [10] ERROR WebAPIReports.Tools.Tools - Missing Parameter Top
+2020-05-13 12:08:07,770 [10] ERROR WebAPIReports.Tools.Tools - Error populating parameter Top. Missing Report Parameter
+2020-05-13 14:17:46,003 [7] ERROR WebAPIReports.Tools.Tools - Missing Parameter Top
+2020-05-13 14:17:46,008 [7] ERROR WebAPIReports.Tools.Tools - Error populating parameter Top. Missing Report Parameter
+2020-05-13 14:25:36,940 [8] ERROR WebAPIReports.Tools.Tools - Missing Parameter Top
+2020-05-13 14:25:36,945 [8] ERROR WebAPIReports.Tools.Tools - Error populating parameter Top. Missing Report Parameter
+2020-05-13 14:25:39,723 [7] ERROR WebAPIReports.Tools.Tools - Missing Parameter Top
+2020-05-13 14:25:39,723 [7] ERROR WebAPIReports.Tools.Tools - Error populating parameter Top. Missing Report Parameter
+2020-05-19 13:52:44,755 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: WirePricing_Connection.
+2020-05-19 13:53:06,699 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: WirePricing_Connection.
+2020-05-19 14:00:20,542 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:00:48,018 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:07:37,231 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:14:01,795 [6] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:15:23,977 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:25:08,371 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:26:14,031 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:44:22,072 [6] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: WirePricing_Connection.
+2020-05-19 14:46:24,227 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: WirePricing_Connection.
+2020-05-19 14:46:56,373 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: WirePricing_Connection.
+2020-05-19 14:52:34,637 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:53:19,626 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+String must be exactly one character long.
+2020-05-19 14:54:14,059 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 14:55:14,139 [22] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 15:30:55,902 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 16:23:37,600 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 17:09:21,525 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 17:14:55,535 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 17:17:01,922 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 17:35:11,515 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 17:53:22,720 [6] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 17:54:46,507 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-19 18:00:41,871 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 08:38:41,119 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Agencies_GetBestCountriesByWires failed to execute.
+2020-05-20 11:36:35,353 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 12:52:06,732 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 13:45:49,684 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 13:56:21,652 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 13:57:30,003 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 14:10:42,060 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 14:13:24,735 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 14:14:41,727 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 14:20:05,592 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 14:35:44,074 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-20 14:37:03,066 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Parameter is not valid.
+2020-05-21 12:44:35,399 [20] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Report_Pricing_PayerFXFaxToAgenciesByCountry failed to execute.
+2020-05-26 12:18:54,954 [59] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 12:19:14,763 [59] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to AS-209 by fax
+2020-05-26 12:24:43,534 [63] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 12:24:46,229 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to FL-2636 by fax
+2020-05-26 12:24:46,483 [59] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to FL-2639 by fax
+2020-05-26 12:36:14,081 [59] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 12:36:17,543 [59] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to AS-06 by fax
+2020-05-26 12:36:18,002 [49] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to AS-0300 by fax
+2020-05-26 12:38:03,104 [49] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 12:38:05,696 [41] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to AS-0267 by fax
+2020-05-26 12:38:05,880 [49] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to AS-0240 by fax
+2020-05-26 12:38:05,951 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to AS-0291 by fax
+2020-05-26 12:39:19,816 [59] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 12:39:22,396 [59] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MO-114 by fax
+2020-05-26 12:39:23,129 [69] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MO-0188 by fax
+2020-05-26 12:39:23,160 [49] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MO-080 by fax
+2020-05-26 12:40:37,154 [51] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 12:40:39,378 [41] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MO-138 by fax
+2020-05-26 12:40:39,829 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MO-150 by fax
+2020-05-26 13:27:52,698 [44] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 13:27:54,605 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0215 by fax
+2020-05-26 13:27:55,929 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0219 by fax
+2020-05-26 13:27:56,479 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0258 by fax
+2020-05-26 13:27:56,568 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-009 by fax
+2020-05-26 13:27:56,592 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0246 by fax
+2020-05-26 13:28:27,835 [44] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 13:28:29,801 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0149 by fax
+2020-05-26 13:28:30,505 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0095 by fax
+2020-05-26 13:28:30,688 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0171 by fax
+2020-05-26 13:28:34,842 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to DC-0002 by fax
+2020-05-26 13:28:34,842 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0220 by fax
+2020-05-26 13:28:34,953 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0200 by fax
+2020-05-26 13:28:34,994 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0154 by fax
+2020-05-26 13:28:35,128 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0132 by fax
+2020-05-26 13:28:36,045 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0214 by fax
+2020-05-26 13:28:36,079 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0161 by fax
+2020-05-26 13:28:36,483 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0198 by fax
+2020-05-26 13:28:36,596 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0107 by fax
+2020-05-26 13:28:36,629 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0145 by fax
+2020-05-26 13:28:36,665 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0210 by fax
+2020-05-26 13:28:36,741 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0175 by fax
+2020-05-26 13:28:36,806 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to DC-001 by fax
+2020-05-26 13:28:37,099 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0243 by fax
+2020-05-26 13:28:37,184 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0124 by fax
+2020-05-26 13:28:37,256 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0262 by fax
+2020-05-26 13:28:37,890 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0227 by fax
+2020-05-26 13:28:38,049 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0253 by fax
+2020-05-26 13:28:38,580 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0223 by fax
+2020-05-26 13:28:39,052 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0236 by fax
+2020-05-26 13:28:39,089 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0238 by fax
+2020-05-26 13:28:39,413 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0233 by fax
+2020-05-26 13:28:39,879 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0242 by fax
+2020-05-26 13:28:39,879 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0215 by fax
+2020-05-26 13:28:40,325 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0176 by fax
+2020-05-26 13:28:40,449 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0251 by fax
+2020-05-26 13:28:41,110 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-066 by fax
+2020-05-26 13:28:41,699 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-064 by fax
+2020-05-26 13:28:41,806 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0219 by fax
+2020-05-26 13:28:42,869 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to DC-0005 by fax
+2020-05-26 13:28:43,842 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0246 by fax
+2020-05-26 13:28:44,881 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0258 by fax
+2020-05-26 13:28:46,131 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-081 by fax
+2020-05-26 13:28:46,205 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0177 by fax
+2020-05-26 13:28:46,925 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0291 by fax
+2020-05-26 13:28:47,446 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0282 by fax
+2020-05-26 13:28:48,071 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0232 by fax
+2020-05-26 13:28:48,071 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0112 by fax
+2020-05-26 13:28:48,808 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0188 by fax
+2020-05-26 13:28:49,108 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0193 by fax
+2020-05-26 13:28:49,108 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0229 by fax
+2020-05-26 13:28:49,231 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0266 by fax
+2020-05-26 13:28:49,457 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0224 by fax
+2020-05-26 13:28:49,495 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0139 by fax
+2020-05-26 13:28:49,996 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0207 by fax
+2020-05-26 13:28:50,139 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0261 by fax
+2020-05-26 13:28:50,423 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0290 by fax
+2020-05-26 13:28:51,068 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0254 by fax
+2020-05-26 13:28:51,272 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0257 by fax
+2020-05-26 13:28:51,443 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0280 by fax
+2020-05-26 13:28:51,765 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0273 by fax
+2020-05-26 13:28:52,349 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0190 by fax
+2020-05-26 13:28:52,550 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0141 by fax
+2020-05-26 13:28:52,972 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0106 by fax
+2020-05-26 13:28:53,251 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0163 by fax
+2020-05-26 13:28:53,870 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0255 by fax
+2020-05-26 13:28:54,205 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0244 by fax
+2020-05-26 13:28:54,333 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0271 by fax
+2020-05-26 13:28:55,961 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0288 by fax
+2020-05-26 13:28:57,066 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0201 by fax
+2020-05-26 13:28:57,289 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-038 by fax
+2020-05-26 13:28:57,484 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0328 by fax
+2020-05-26 13:28:57,714 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0199 by fax
+2020-05-26 13:28:58,400 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0338 by fax
+2020-05-26 13:28:58,484 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0297 by fax
+2020-05-26 13:28:58,645 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0294 by fax
+2020-05-26 13:28:59,001 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-009 by fax
+2020-05-26 13:28:59,017 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0446 by fax
+2020-05-26 13:28:59,501 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0388 by fax
+2020-05-26 13:28:59,510 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0474 by fax
+2020-05-26 13:29:00,079 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0450 by fax
+2020-05-26 13:29:00,099 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0475 by fax
+2020-05-26 13:29:00,147 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0425 by fax
+2020-05-26 13:29:00,352 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0125 by fax
+2020-05-26 13:29:00,633 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0424 by fax
+2020-05-26 13:29:01,181 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0488 by fax
+2020-05-26 13:29:01,361 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0481 by fax
+2020-05-26 13:29:02,045 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0150 by fax
+2020-05-26 13:29:02,045 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0144 by fax
+2020-05-26 13:29:03,460 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0248 by fax
+2020-05-26 13:29:03,492 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0262 by fax
+2020-05-26 13:29:03,716 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0260 by fax
+2020-05-26 13:29:04,042 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0264 by fax
+2020-05-26 13:29:04,315 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0348 by fax
+2020-05-26 13:29:04,832 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0280 by fax
+2020-05-26 13:29:05,026 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0271 by fax
+2020-05-26 13:29:05,958 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0318 by fax
+2020-05-26 13:29:06,050 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0339 by fax
+2020-05-26 13:29:06,445 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0415 by fax
+2020-05-26 13:29:06,728 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0310 by fax
+2020-05-26 13:29:07,327 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0350 by fax
+2020-05-26 13:29:07,783 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0341 by fax
+2020-05-26 13:29:08,552 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0366 by fax
+2020-05-26 13:29:08,746 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0429 by fax
+2020-05-26 13:29:09,603 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0455 by fax
+2020-05-26 13:29:10,433 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0452 by fax
+2020-05-26 13:29:11,539 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0414 by fax
+2020-05-26 13:29:11,539 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0496 by fax
+2020-05-26 13:29:12,058 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0467 by fax
+2020-05-26 13:29:12,061 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0441 by fax
+2020-05-26 13:29:12,463 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0399 by fax
+2020-05-26 13:29:12,632 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0465 by fax
+2020-05-26 13:29:13,495 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0352 by fax
+2020-05-26 13:29:13,592 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0469 by fax
+2020-05-26 13:29:14,077 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0428 by fax
+2020-05-26 13:29:14,244 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to WV-0001 by fax
+2020-05-26 13:29:14,244 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0355 by fax
+2020-05-26 13:29:14,386 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0289 by fax
+2020-05-26 13:29:14,624 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0501 by fax
+2020-05-26 13:29:14,758 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0435 by fax
+2020-05-26 13:29:14,796 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-039 by fax
+2020-05-26 13:29:14,798 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0499 by fax
+2020-05-26 13:29:15,568 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0439 by fax
+2020-05-26 13:29:15,729 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0162 by fax
+2020-05-26 13:29:15,764 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0422 by fax
+2020-05-26 13:29:16,268 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0451 by fax
+2020-05-26 13:29:16,414 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0195 by fax
+2020-05-26 13:29:16,980 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0447 by fax
+2020-05-26 13:29:18,136 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0260 by fax
+2020-05-26 13:29:18,479 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0464 by fax
+2020-05-26 13:29:18,515 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0267 by fax
+2020-05-26 13:29:19,061 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-243 by fax
+2020-05-26 13:29:19,139 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0268 by fax
+2020-05-26 13:29:19,321 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0468 by fax
+2020-05-26 13:29:19,556 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-218 by fax
+2020-05-26 13:29:19,938 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0473 by fax
+2020-05-26 13:29:20,803 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0471 by fax
+2020-05-26 13:29:21,043 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0251 by fax
+2020-05-26 13:29:22,480 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-246 by fax
+2020-05-26 13:29:24,327 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0274 by fax
+2020-05-26 13:29:24,783 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0259 by fax
+2020-05-26 13:29:25,349 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0322 by fax
+2020-05-26 13:29:25,358 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0283 by fax
+2020-05-26 13:29:25,816 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0285 by fax
+2020-05-26 13:29:26,071 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0279 by fax
+2020-05-26 13:29:26,071 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0317 by fax
+2020-05-26 13:29:26,300 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0311 by fax
+2020-05-26 13:29:26,562 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0377 by fax
+2020-05-26 13:29:26,874 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0277 by fax
+2020-05-26 13:29:27,421 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0396 by fax
+2020-05-26 13:29:27,469 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0333 by fax
+2020-05-26 13:29:27,469 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-010 by fax
+2020-05-26 13:29:28,143 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0479 by fax
+2020-05-26 13:29:28,382 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0393 by fax
+2020-05-26 13:29:28,401 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0389 by fax
+2020-05-26 13:29:28,416 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0417 by fax
+2020-05-26 13:29:28,582 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0418 by fax
+2020-05-26 13:29:28,767 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0382 by fax
+2020-05-26 13:29:28,883 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0457 by fax
+2020-05-26 13:29:28,950 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0368 by fax
+2020-05-26 13:29:29,068 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0407 by fax
+2020-05-26 13:29:29,275 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0462 by fax
+2020-05-26 13:29:29,446 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0477 by fax
+2020-05-26 13:29:30,515 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-225 by fax
+2020-05-26 13:29:30,561 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0490 by fax
+2020-05-26 13:29:30,842 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0430 by fax
+2020-05-26 13:29:31,291 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-223 by fax
+2020-05-26 13:29:32,670 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0502 by fax
+2020-05-26 13:29:32,670 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-171 by fax
+2020-05-26 13:29:33,433 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0309 by fax
+2020-05-26 13:29:33,721 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0362 by fax
+2020-05-26 13:29:34,003 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-233 by fax
+2020-05-26 13:29:34,152 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0483 by fax
+2020-05-26 13:29:35,020 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0378 by fax
+2020-05-26 13:29:37,681 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0503 by fax
+2020-05-26 13:29:39,079 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0484 by fax
+2020-05-26 13:29:39,336 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0436 by fax
+2020-05-26 13:29:39,370 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0364 by fax
+2020-05-26 13:29:39,370 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0392 by fax
+2020-05-26 13:29:40,091 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0398 by fax
+2020-05-26 13:29:40,927 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0463 by fax
+2020-05-26 13:29:41,799 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-215 by fax
+2020-05-26 13:29:41,909 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0492 by fax
+2020-05-26 13:29:42,070 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0404 by fax
+2020-05-26 13:29:42,268 [33] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0385 by fax
+2020-05-26 13:29:42,270 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0346 by fax
+2020-05-26 13:29:43,100 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0480 by fax
+2020-05-26 13:29:43,287 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-044 by fax
+2020-05-26 13:29:43,655 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-241 by fax
+2020-05-26 13:29:43,686 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0434 by fax
+2020-05-26 13:29:43,914 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0470 by fax
+2020-05-26 13:29:43,914 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-151 by fax
+2020-05-26 13:29:44,112 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0442 by fax
+2020-05-26 13:29:44,474 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0491 by fax
+2020-05-26 13:29:44,608 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-102 by fax
+2020-05-26 13:29:44,745 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0449 by fax
+2020-05-26 13:29:44,968 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0347 by fax
+2020-05-26 13:29:45,109 [64] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0486 by fax
+2020-05-26 13:29:45,551 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0482 by fax
+2020-05-26 13:29:46,600 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0500 by fax
+2020-05-26 13:29:46,965 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0493 by fax
+2020-05-26 13:29:47,213 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0495 by fax
+2020-05-26 13:29:47,478 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0498 by fax
+2020-05-26 13:29:47,512 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-148 by fax
+2020-05-26 13:29:48,428 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to WV-0003 by fax
+2020-05-26 13:29:49,188 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0324 by fax
+2020-05-26 13:29:49,728 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-219 by fax
+2020-05-26 13:29:50,403 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0301 by fax
+2020-05-26 13:29:50,875 [33] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0329 by fax
+2020-05-26 13:29:50,876 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0312 by fax
+2020-05-26 13:29:51,763 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0356 by fax
+2020-05-26 13:29:52,288 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0375 by fax
+2020-05-26 13:29:52,974 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0380 by fax
+2020-05-26 13:29:54,189 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0423 by fax
+2020-05-26 13:29:54,189 [64] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0416 by fax
+2020-05-26 13:29:54,501 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0383 by fax
+2020-05-26 13:29:54,673 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0390 by fax
+2020-05-26 13:29:55,976 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0384 by fax
+2020-05-26 13:29:55,976 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0402 by fax
+2020-05-26 13:29:56,185 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0391 by fax
+2020-05-26 13:29:56,830 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0406 by fax
+2020-05-26 13:29:56,913 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0421 by fax
+2020-05-26 13:29:57,202 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0386 by fax
+2020-05-26 13:29:57,833 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0456 by fax
+2020-05-26 13:29:57,914 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0453 by fax
+2020-05-26 13:29:58,032 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0437 by fax
+2020-05-26 13:29:58,032 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0419 by fax
+2020-05-26 13:29:58,322 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0438 by fax
+2020-05-26 13:29:58,842 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0405 by fax
+2020-05-26 13:29:59,271 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0497 by fax
+2020-05-26 13:29:59,272 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0504 by fax
+2020-05-26 13:29:59,509 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-238 by fax
+2020-05-26 13:29:59,509 [33] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-214 by fax
+2020-05-26 13:29:59,631 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0487 by fax
+2020-05-26 13:29:59,850 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-203 by fax
+2020-05-26 13:29:59,945 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0410 by fax
+2020-05-26 13:30:01,332 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0127 by fax
+2020-05-26 13:30:03,412 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0165 by fax
+2020-05-26 13:30:03,413 [64] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0187 by fax
+2020-05-26 13:30:03,974 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0231 by fax
+2020-05-26 13:30:04,021 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0230 by fax
+2020-05-26 13:30:05,833 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-074 by fax
+2020-05-26 13:30:05,958 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0277 by fax
+2020-05-26 13:30:06,007 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-018 by fax
+2020-05-26 13:30:06,072 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0267 by fax
+2020-05-26 13:30:06,580 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0286 by fax
+2020-05-26 13:30:06,956 [32] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0270 by fax
+2020-05-26 13:30:07,252 [46] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0189 by fax
+2020-05-26 13:30:07,523 [28] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0249 by fax
+2020-05-26 13:30:08,355 [54] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0255 by fax
+2020-05-26 13:30:08,611 [50] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0270 by fax
+2020-05-26 13:30:08,991 [40] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0266 by fax
+2020-05-26 13:30:09,190 [44] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to MD-0265 by fax
+2020-05-26 13:30:09,450 [33] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0334 by fax
+2020-05-26 13:30:09,716 [51] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0357 by fax
+2020-05-26 13:30:10,436 [60] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0397 by fax
+2020-05-26 13:30:10,449 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0315 by fax
+2020-05-26 13:30:10,497 [38] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0358 by fax
+2020-05-26 13:30:10,497 [48] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0411 by fax
+2020-05-26 13:30:10,996 [42] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0345 by fax
+2020-05-26 13:30:11,076 [30] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0394 by fax
+2020-05-26 13:30:11,261 [39] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0299 by fax
+2020-05-26 13:30:11,431 [64] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0472 by fax
+2020-05-26 13:30:11,549 [57] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0440 by fax
+2020-05-26 13:30:11,691 [43] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0476 by fax
+2020-05-26 13:30:11,800 [47] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0478 by fax
+2020-05-26 13:30:11,921 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0494 by fax
+2020-05-26 13:30:11,980 [27] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0489 by fax
+2020-05-26 13:30:12,020 [63] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-201 by fax
+2020-05-26 13:30:12,064 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-231 by fax
+2020-05-26 13:30:12,091 [29] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-230 by fax
+2020-05-26 13:30:12,307 [61] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to VA-0374 by fax
+2020-05-26 13:37:20,115 [35] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-26 13:37:23,039 [34] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to FL-2454 by fax
+2020-05-26 13:37:23,102 [36] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to FL-617 by fax
+2020-05-26 13:37:23,439 [35] INFO WebAPIBusiness.BSInvoice - User MAGARCIA sent FX FAX to FL-952 by fax
+2020-05-29 13:51:36,481 [10] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-29 13:51:48,478 [7] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-05-29 13:52:58,327 [9] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-29 13:53:44,179 [7] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-05-29 13:54:26,330 [9] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-29 13:55:06,207 [9] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-05-29 13:56:56,484 [8] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-29 14:09:26,020 [8] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-05-29 14:09:26,230 [9] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-05-29 14:10:04,793 [8] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-06-30 11:04:33,651 [21] INFO WebAPIBusiness.BSInvoice - Start BatchProcess, User MAGARCIA
+2020-06-30 11:05:44,213 [24] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2020-07-30 11:28:12,018 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:28:38,701 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:30:05,757 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:32:41,322 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:33:19,257 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:34:38,104 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:49:04,167 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 11:58:26,288 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 12:07:30,999 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: Checks.
+2020-07-30 12:15:09,630 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 12:16:26,755 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 12:16:55,924 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 12:19:07,680 [33] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 12:19:51,460 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 12:20:28,324 [8] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 12:21:27,330 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPRNX ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Input string was not in a correct format.
+2020-07-30 16:01:20,829 [10] ERROR WebAPIReports.Tools.Tools - ReportToStreamCSV ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: ChecksConnectionString.
+2020-08-05 11:38:35,763 [10] ERROR WebAPIReports.Tools.Tools - Missing Parameter CustomerName
+2020-08-05 11:38:35,770 [10] ERROR WebAPIReports.Tools.Tools - Error populating parameter CustomerName. Missing Report Parameter
+2020-08-05 11:40:06,797 [8] ERROR WebAPIReports.Tools.Tools - Missing Parameter CustomerName
+2020-08-05 11:40:06,797 [8] ERROR WebAPIReports.Tools.Tools - Error populating parameter CustomerName. Missing Report Parameter
+2020-08-05 11:41:25,663 [11] ERROR WebAPIReports.Tools.Tools - Missing Parameter CustomerName
+2020-08-05 11:41:50,077 [11] ERROR WebAPIReports.Tools.Tools - Error populating parameter CustomerName. Missing Report Parameter
+2020-08-05 11:43:00,239 [11] ERROR WebAPIReports.Tools.Tools - Missing Parameter CustomerName
+2020-08-05 11:43:00,239 [11] ERROR WebAPIReports.Tools.Tools - Error populating parameter CustomerName. Missing Report Parameter
+2020-08-06 15:55:54,603 [9] ERROR WebAPIReports.Tools.Tools - Missing Parameter AgencyName
+2020-08-06 15:55:54,611 [9] ERROR WebAPIReports.Tools.Tools - Error populating parameter AgencyName. Missing Report Parameter
+2020-08-06 15:56:34,825 [9] ERROR WebAPIReports.Tools.Tools - ReportToStreamCSV ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Cannot find the following connection in the config file: ChecksConnectionString.
+2021-02-05 11:34:54,552 [8] ERROR WebAPIReports.Tools.Tools - Missing Parameter Top
+2021-02-05 11:34:54,561 [8] ERROR WebAPIReports.Tools.Tools - Error populating parameter Top. Missing Report Parameter
+2021-02-05 11:36:08,193 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Report_Pricing_PayerFXFaxToAgenciesByCountry failed to execute.
+2021-02-05 11:40:20,949 [7] ERROR WebAPIReports.Tools.Tools - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query Report_Pricing_PayerFXFaxToAgenciesByCountry failed to execute.
+2021-02-10 16:59:02,540 [9] ERROR WebAPIBusiness.SSRS.BSReportingSvcRpt - FxRptToStreamPDF ERROR: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2021-03-04 15:08:27,978 [29] INFO WebAPIBusiness.BSInvoice - Start FxFax BatchProcess, User magarcia
+2021-03-04 15:11:10,519 [30] ERROR WebAPIBusiness.BSInvoice - Error sending FX FAX to Agency FL1000. An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)
+2021-03-04 15:15:44,799 [43] INFO WebAPIBusiness.BSInvoice - Start FxFax BatchProcess, User magarcia
+2021-05-05 10:48:54,862 [23] ERROR WebAPIReports.Tools.Invoice.ToolInvoice - Missing Parameter StatementIds
+2021-05-05 10:48:54,869 [23] ERROR WebAPIReports.Tools.Invoice.ToolInvoice - Error populating parameter StatementIds. Missing Report Parameter
+2023-06-22 19:27:33,357 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Missing Parameter AllowViewCommissions
+2023-06-22 19:27:33,403 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Error populating parameter AllowViewCommissions. Missing Report Parameter
+2023-06-22 19:29:58,891 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Missing Parameter AllowViewCommissions
+2023-06-22 19:29:58,891 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Error populating parameter AllowViewCommissions. Missing Report Parameter
+2023-06-22 19:42:17,972 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Missing Parameter AllowViewCommissions
+2023-06-22 19:42:17,986 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - Error populating parameter AllowViewCommissions. Missing Report Parameter
+2024-04-09 15:07:44,039 [10] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query ConvertRowsInColumns_MultiLangLabels failed to execute.
+2024-04-09 15:14:33,081 [29] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query ConvertRowsInColumns_MultiLangLabels failed to execute.
+2024-04-23 15:32:16,717 [5] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Object reference not set to an instance of an object.
+2024-04-23 15:40:50,284 [5] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Object reference not set to an instance of an object.
+2024-04-30 17:30:53,939 [9] ERROR DevExpress.XtraReports.UI.PictureBoxExtension - GetImageFormBinary ERROR: Parameter is not valid.
+2024-05-13 15:18:32,476 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query sps_EndOfDayReport_withSplitCancels_CardDirect failed to execute.
+2024-05-13 15:20:05,812 [6] ERROR WebAPIReports.Tools.AgencyOverview.ToolAgencyOverview - ReportToStreamPDF ERROR: Error when trying to populate the datasource. The following exception was thrown: 
+Query sps_EndOfDayReport_withSplitCancels_CardDirect failed to execute.

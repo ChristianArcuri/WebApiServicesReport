@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9C79C77-1EF1-401E-B9E4-A59E819E649C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebAPIReports</RootNamespace>
+    <AssemblyName>WebAPIReports</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.Designer.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.2.Drawing, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Export, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.CodeView.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2.Wizard, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.2.UI, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\AgencyOverview\EndOfDayReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AgencyOverview\EndOfDayReport.Designer.cs">
+      <DependentUpon>EndOfDayReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\AgencyOverview\SentWiresReportSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AgencyOverview\SentWiresReportSm.Designer.cs">
+      <DependentUpon>SentWiresReportSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\AgencyOverview\SentWiresReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AgencyOverview\SentWiresReport.Designer.cs">
+      <DependentUpon>SentWiresReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\RptCheckFeeCommissions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\RptCheckFeeCommissions.Designer.cs">
+      <DependentUpon>RptCheckFeeCommissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\RptCheckItemV2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\RptCheckItemV2.Designer.cs">
+      <DependentUpon>RptCheckItemV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\RptCheckItems.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\RptCheckItems.Designer.cs">
+      <DependentUpon>RptCheckItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\RptChecksBatch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\RptChecksBatch.Designer.cs">
+      <DependentUpon>RptChecksBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\RptChecksProcessed.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\RptChecksProcessed.Designer.cs">
+      <DependentUpon>RptChecksProcessed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\RptChecksRegulatoryLog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\RptChecksRegulatoryLog.Designer.cs">
+      <DependentUpon>RptChecksRegulatoryLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\SmallFormat\RptChecksProcessedSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\SmallFormat\RptChecksProcessedSm.Designer.cs">
+      <DependentUpon>RptChecksProcessedSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Checks\SmallFormat\RptCheckFeeCommissionsSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Checks\SmallFormat\RptCheckFeeCommissionsSm.Designer.cs">
+      <DependentUpon>RptCheckFeeCommissionsSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FXTest.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FXTest.Designer.cs">
+      <DependentUpon>FXTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxMain.Designer.cs">
+      <DependentUpon>FxFaxMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxMultiples.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxMultiples.Designer.cs">
+      <DependentUpon>FxFaxMultiples.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxOtherCountries.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxOtherCountries.Designer.cs">
+      <DependentUpon>FxFaxOtherCountries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxByCountry.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxByCountry.Designer.cs">
+      <DependentUpon>FxFaxByCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxUSDCountries.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\FxFaxUSDCountries.Designer.cs">
+      <DependentUpon>FxFaxUSDCountries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\SmallFormat\FxFaxByCountrySm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\SmallFormat\FxFaxByCountrySm.Designer.cs">
+      <DependentUpon>FxFaxByCountrySm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\SmallFormat\FxFaxMainSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\SmallFormat\FxFaxMainSm.Designer.cs">
+      <DependentUpon>FxFaxMainSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FXFAX\SmallFormat\FxFaxOtherCountriesSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\FXFAX\SmallFormat\FxFaxOtherCountriesSm.Designer.cs">
+      <DependentUpon>FxFaxOtherCountriesSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\ReportCommon.cs" />
+    <Compile Include="Reports\Invoice\RptInvoice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoice.Designer.cs">
+      <DependentUpon>RptInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceBillPayment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceBillPayment.Designer.cs">
+      <DependentUpon>RptInvoiceBillPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceCancellations.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceCancellations.Designer.cs">
+      <DependentUpon>RptInvoiceCancellations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceDebitCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceDebitCard.Designer.cs">
+      <DependentUpon>RptInvoiceDebitCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceInTransit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceInTransit.Designer.cs">
+      <DependentUpon>RptInvoiceInTransit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceMain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceMain.Designer.cs">
+      <DependentUpon>RptInvoiceMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceOther.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceOther.Designer.cs">
+      <DependentUpon>RptInvoiceOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoicePayment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoicePayment.Designer.cs">
+      <DependentUpon>RptInvoicePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceWires.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\RptInvoiceWires.Designer.cs">
+      <DependentUpon>RptInvoiceWires.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceBPSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceBPSm.designer.cs">
+      <DependentUpon>RptInvoiceBPSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceDebitCardSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceDebitCardSm.designer.cs">
+      <DependentUpon>RptInvoiceDebitCardSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceSm.designer.cs">
+      <DependentUpon>RptInvoiceSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceCancellationsSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceCancellationsSm.designer.cs">
+      <DependentUpon>RptInvoiceCancellationsSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceInTransitSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceInTransitSm.designer.cs">
+      <DependentUpon>RptInvoiceInTransitSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceOtherSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceOtherSm.designer.cs">
+      <DependentUpon>RptInvoiceOtherSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoicePaymentSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoicePaymentSm.designer.cs">
+      <DependentUpon>RptInvoicePaymentSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceWiresSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Invoice\SmallFormat\RptInvoiceWiresSm.designer.cs">
+      <DependentUpon>RptInvoiceWiresSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\RptMOInvoice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\RptMOInvoice.Designer.cs">
+      <DependentUpon>RptMOInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\RptMOInvoiceDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\RptMOInvoiceDetail.Designer.cs">
+      <DependentUpon>RptMOInvoiceDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\RptMOIssued.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\RptMOIssued.Designer.cs">
+      <DependentUpon>RptMOIssued.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\SmallFormat\RptMOInvoiceDetailSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\SmallFormat\RptMOInvoiceDetailSm.Designer.cs">
+      <DependentUpon>RptMOInvoiceDetailSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\SmallFormat\RptMOInvoiceSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\SmallFormat\RptMOInvoiceSm.Designer.cs">
+      <DependentUpon>RptMOInvoiceSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\SmallFormat\RptMOIssuedSm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyOrder\SmallFormat\RptMOIssuedSm.Designer.cs">
+      <DependentUpon>RptMOIssuedSm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoice.Designer.cs">
+      <DependentUpon>PartnerInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceBC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceBC.Designer.cs">
+      <DependentUpon>PartnerInvoiceBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceChB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceChB.Designer.cs">
+      <DependentUpon>PartnerInvoiceChB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceWP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceWP.Designer.cs">
+      <DependentUpon>PartnerInvoiceWP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Receipt\Receipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Receipt\Receipt.designer.cs">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AgencyOverview\ToolAgencyOverview.cs" />
+    <Compile Include="Tools\Checks\ToolChecks.cs" />
+    <Compile Include="Tools\FXFAX\ToolFXFAX.cs" />
+    <Compile Include="Tools\Invoice\ToolInvoice.cs" />
+    <Compile Include="Tools\MoneyOrders\ToolMoneyOrders.cs" />
+    <Compile Include="Tools\PartnerInvoiceProcFee\ToolPartnerInvoice.cs" />
+    <Compile Include="Tools\Receipt\ToolReceipt.cs" />
+    <Compile Include="Tools\Tools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reports\AgencyOverview\EndOfDayReport.resx">
+      <DependentUpon>EndOfDayReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AgencyOverview\SentWiresReportSm.resx">
+      <DependentUpon>SentWiresReportSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AgencyOverview\SentWiresReport.resx">
+      <DependentUpon>SentWiresReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\RptCheckFeeCommissions.resx">
+      <DependentUpon>RptCheckFeeCommissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\RptCheckItemV2.resx">
+      <DependentUpon>RptCheckItemV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\RptCheckItems.resx">
+      <DependentUpon>RptCheckItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\RptChecksBatch.resx">
+      <DependentUpon>RptChecksBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\RptChecksProcessed.resx">
+      <DependentUpon>RptChecksProcessed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\RptChecksRegulatoryLog.resx">
+      <DependentUpon>RptChecksRegulatoryLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\SmallFormat\RptChecksProcessedSm.resx">
+      <DependentUpon>RptChecksProcessedSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Checks\SmallFormat\RptCheckFeeCommissionsSm.resx">
+      <DependentUpon>RptCheckFeeCommissionsSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\FXTest.resx">
+      <DependentUpon>FXTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\FxFaxMain.resx">
+      <DependentUpon>FxFaxMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\FxFaxMultiples.resx">
+      <DependentUpon>FxFaxMultiples.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\FxFaxOtherCountries.resx">
+      <DependentUpon>FxFaxOtherCountries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\FxFaxByCountry.resx">
+      <DependentUpon>FxFaxByCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\FxFaxUSDCountries.resx">
+      <DependentUpon>FxFaxUSDCountries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\SmallFormat\FxFaxByCountrySm.resx">
+      <DependentUpon>FxFaxByCountrySm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\SmallFormat\FxFaxMainSm.resx">
+      <DependentUpon>FxFaxMainSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FXFAX\SmallFormat\FxFaxOtherCountriesSm.resx">
+      <DependentUpon>FxFaxOtherCountriesSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoice.resx">
+      <DependentUpon>RptInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceBillPayment.resx">
+      <DependentUpon>RptInvoiceBillPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceCancellations.resx">
+      <DependentUpon>RptInvoiceCancellations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceDebitCard.resx">
+      <DependentUpon>RptInvoiceDebitCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceInTransit.resx">
+      <DependentUpon>RptInvoiceInTransit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceMain.resx">
+      <DependentUpon>RptInvoiceMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceOther.resx">
+      <DependentUpon>RptInvoiceOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoicePayment.resx">
+      <DependentUpon>RptInvoicePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\RptInvoiceWires.resx">
+      <DependentUpon>RptInvoiceWires.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceBPSm.resx">
+      <DependentUpon>RptInvoiceBPSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceDebitCardSm.resx">
+      <DependentUpon>RptInvoiceDebitCardSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceSm.resx">
+      <DependentUpon>RptInvoiceSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceCancellationsSm.resx">
+      <DependentUpon>RptInvoiceCancellationsSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceInTransitSm.resx">
+      <DependentUpon>RptInvoiceInTransitSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceOtherSm.resx">
+      <DependentUpon>RptInvoiceOtherSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoicePaymentSm.resx">
+      <DependentUpon>RptInvoicePaymentSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Invoice\SmallFormat\RptInvoiceWiresSm.resx">
+      <DependentUpon>RptInvoiceWiresSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyOrder\RptMOInvoice.resx">
+      <DependentUpon>RptMOInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyOrder\RptMOInvoiceDetail.resx">
+      <DependentUpon>RptMOInvoiceDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyOrder\RptMOIssued.resx">
+      <DependentUpon>RptMOIssued.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyOrder\SmallFormat\RptMOInvoiceDetailSm.resx">
+      <DependentUpon>RptMOInvoiceDetailSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyOrder\SmallFormat\RptMOInvoiceSm.resx">
+      <DependentUpon>RptMOInvoiceSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyOrder\SmallFormat\RptMOIssuedSm.resx">
+      <DependentUpon>RptMOIssuedSm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PartnerInvoiceProcFee\PartnerInvoice.resx">
+      <DependentUpon>PartnerInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceBC.resx">
+      <DependentUpon>PartnerInvoiceBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceChB.resx">
+      <DependentUpon>PartnerInvoiceChB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PartnerInvoiceProcFee\PartnerInvoiceWP.resx">
+      <DependentUpon>PartnerInvoiceWP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Receipt\Receipt.resx">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebAPIDataAccess\WebAPIDataAccess.csproj">
+      <Project>{73431187-269d-4b6e-a9a4-e46343ee200f}</Project>
+      <Name>WebAPIDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WEbAPIEntities\WebAPIEntities.csproj">
+      <Project>{24b7810d-6b3d-438f-a6af-d760c7e57ae5}</Project>
+      <Name>WebAPIEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
